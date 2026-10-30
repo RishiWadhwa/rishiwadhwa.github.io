@@ -1,0 +1,60 @@
+.projects {
+  max-width: 980px;
+  margin: 32px auto;
+  padding: 16px 18px 8px;
+  border: 1px solid #bdbdbd;
+  background: #fff;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects h1 {
+  margin: 0 0 14px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.project-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border: 1px solid #bdbdbd;
+  background: #fff;
+}
+
+.project-row.joined {
+  background: #d9ead3;
+}
+
+.project-info {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.project-users {
+  color: #9e9e9e;
+  font-size: 14px;
+}
+
+.project-hardware {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hardware-set {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hw-label {
+  width: 132px;
+  flex-shrink: 0;
+}
